@@ -22,4 +22,10 @@ Then :
 ``bundle exec opal --compile -q opal-browser test.rb > app.js
 ``
 
-Open index.html in your browser : a randomly colored dot normally moved around a circle.
+Open index.html in your browser.
+
+## Tests specificities
+
+* **Test 1** : basic usage of Opal. Animation of an SVG directly embedded in html. Checks if it works. : a randomly colored dot normally moves around a circle.
+
+* **Test 2** : we now try to open an external SVG file.

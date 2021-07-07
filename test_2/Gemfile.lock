@@ -1,0 +1,28 @@
+GIT
+  remote: https://github.com/opal/opal-browser.git
+  revision: 5ce4863b5469cc5139f386292e2e0207cf2074cb
+  specs:
+    opal-browser (0.2.0)
+      opal (>= 1.0, < 2.0)
+      paggio
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    opal (1.1.1)
+      ast (>= 2.3.0)
+      parser (~> 3.0)
+    paggio (0.2.6)
+    parser (3.0.1.1)
+      ast (~> 2.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  opal
+  opal-browser!
+
+BUNDLED WITH
+   2.1.2
